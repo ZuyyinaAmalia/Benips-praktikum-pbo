@@ -1,5 +1,3 @@
-package Praktikum2;
-
 public class nyoba {
     public static void main(String[] args) {
         MataKuliah pbo = new MataKuliah("PBO", "Pemograman Berorientasi Objek", 3);
@@ -17,7 +15,4 @@ public class nyoba {
         System.out.println("Jumlah Mata Kuliah = " + m1.getJumlahMatkul());
         System.out.println("Jumlah SKS Mata Kuliah = " + m1.getJumlahSks());
     }
-
-
-    
 }

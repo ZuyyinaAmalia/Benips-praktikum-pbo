@@ -1,4 +1,8 @@
-package Praktikum2;
+/* Nama File    : Dosen.java
+ * Deskripsi    : berisi atribut dan method class Mahasiswa
+ * Pembuat      : Zuyyina Amalia
+ * Tanggal      : 27 Februari 2025
+ */
 
 import java.util.ArrayList;
 

@@ -1,4 +1,8 @@
-package Praktikum2;
+/* Nama File    : Dosen.java
+ * Deskripsi    : berisi atribut dan method class Kendaraan
+ * Pembuat      : Zuyyina Amalia
+ * Tanggal      : 27 Februari 2025
+ */
 
 public class Kendaraan {
     // atribut
