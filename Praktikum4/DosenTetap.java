@@ -39,11 +39,16 @@ public class DosenTetap extends Dosen {
     }
     @Override
     public void printInfo() {
-        super.printInfo();
+        System.out.println("NIP : " + nip);
         System.out.println("NIDN : " + nidn);
+        System.out.println("Nama : " + nama);
+        System.out.println("Tanggal Lahir : " + tanggalLahir.format(dateFormatter));
+        System.out.println("TMT : " + tmt.format(dateFormatter));
         System.out.println("Jabatan : Dosen Tetap");
+        System.out.println("Fakultas : " + fakultas);
+        System.out.println("Masa Kerja : " + getMasaKerja().getYears() + " tahun " + getMasaKerja().getMonths() + " bulan " );
         System.out.println("BUP : " + getBup().format(dateFormatter));
-
+        System.out.printf("Gaji Pokok : Rp %,2f%n", gajiPokok);
         System.out.printf("Tunjangan : 2%% x %d x Rp %,.2f = Rp %,.2f%n", getMasaKerja().getYears(), gajiPokok, getTunjangan());
     }
 }

@@ -86,9 +86,8 @@ public class Pegawai {
         System.out.println("Tanggal Lahir : " + tanggalLahir.format(dateFormatter));
         System.out.println("TMT : " + tmt.format(dateFormatter));
 
-        Period masaKerja = getMasaKerja();
-        System.out.println("Masa Kerja : " + masaKerja.getYears() + " tahun " + masaKerja.getMonths() + " bulan " );
-
+        System.out.println("Masa Kerja : " + getMasaKerja().getYears() + " tahun " + getMasaKerja().getMonths() + " bulan " );
+        
         System.out.printf("Gaji Pokok : Rp %,2f%n", gajiPokok);
     }
 }

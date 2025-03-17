@@ -1,3 +1,9 @@
+/* Nama File    : main.java
+ * Deskripsi    : class main
+ * Pembuat      : Zuyyina Amalia
+ * Tanggal      : 15 maret 2025
+ */
+
 package Praktikum4;
 
 public class main {

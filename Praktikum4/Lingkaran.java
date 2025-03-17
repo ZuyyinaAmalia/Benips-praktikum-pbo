@@ -1,3 +1,9 @@
+/* Nama File    : Lingkaran.java
+ * Deskripsi    : class Lingkaran
+ * Pembuat      : Zuyyina Amalia
+ * Tanggal      : 15 maret 2025
+ */
+
 package Praktikum4;
 
 public class Lingkaran extends BangunDatar {
