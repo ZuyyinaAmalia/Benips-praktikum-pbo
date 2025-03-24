@@ -5,7 +5,7 @@
  */
 
 package Praktikum4;
-public class Persegi extends BangunDatar {
+public class Persegi extends BangunDatar implements IResize {
     private double sisi;
 
     public Persegi(){
@@ -34,10 +34,12 @@ public class Persegi extends BangunDatar {
         this.sisi = sisi;
     }
 
+    @Override
     public double getLuas(){
         return sisi*sisi;
     }
-
+    
+    @Override
     public double getKeliling(){
         return 4*sisi;
     }
@@ -58,6 +60,19 @@ public class Persegi extends BangunDatar {
     public void printInfo() {
         super.printInfo();
         System.out.println("Sisi : " + sisi);
+    }
+
+    @Override
+    public void zoomIn() {
+        sisi = sisi * 1.1;
+    }
+    @Override
+    public void zoomOut() {
+        sisi = sisi * 0.9;
+    }
+    @Override
+    public void zoom(int percent) {
+        sisi = sisi * percent/100;
     }
 
 
