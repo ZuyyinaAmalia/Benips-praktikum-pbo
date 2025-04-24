@@ -3,7 +3,6 @@
  * Pembuat      : Zuyyina Amalia
  * Tanggal      : 27 maret 2025
  */
-package RESPONSI;
 
 public class LaboratoriumKomputer extends RuangLaboratorium{
     private int jumlahKomputer;

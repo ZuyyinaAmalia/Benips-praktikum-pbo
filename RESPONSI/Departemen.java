@@ -1,4 +1,8 @@
-package RESPONSI;
+/* Nama File    : Departemen.java
+ * Deskripsi    : class Departemen
+ * Pembuat      : Zuyyina Amalia
+ * Tanggal      : 27 maret 2025
+ */
 
 import java.util.ArrayList;
 import java.util.List;

@@ -3,7 +3,6 @@
  * Pembuat      : Zuyyina Amalia
  * Tanggal      : 27 maret 2025
  */
-package RESPONSI;
 
 import java.util.Arrays;
 
