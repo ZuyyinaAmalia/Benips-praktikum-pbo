@@ -24,5 +24,4 @@ public class MySQLPersonDAO implements PersonDAO{
         s.executeUpdate(query);
         con.close();
     }
-
 }
